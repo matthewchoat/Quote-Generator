@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Splurty</title>
+    <title>Dark Quotes</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
 
+  </head>
   <body>
       <header class="row">
         <div class="col-3">
           <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
         <br />
-        You know
+        Git gud
         <br />
-        You need
+        with
         <br />
-        To code
+        Github
       </div>
       <% end %>
         </div>
         <div class="col-4 slogan">
-          Splurting out unsolicited advice about entrepreneurship since 2016
+         Collecting semi-inspirational advice from the Great Sages since June, MMXIX.
         </div>
         <div class="col-5 links">
-          <%= link_to 'Contribute', new_quote_path %>
-          <%= link_to 'About', '#' %>
+          <%= link_to '~Contribute~ ', new_quote_path %>
+          <%= link_to ' ~About~', about_path %>
         </div>
       </header>
 
@@ -49,11 +49,11 @@
       <div class="container">
         <div class="row">
       <div class="col-6">
-         <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+         <%= link_to "Hit me, again!", root_path, class: 'next-quote' %>
       </div>
         <div class="col-6 footer-blurb">
-          Proudly hacked by <a href="[https://matthewchoat.netlify.com]">[Matthew Choat]</a><br />
-          Want to build your own Splurty Web App? - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+         This application was crafted by <a href="[https://matthewchoat.netlify.com]">[Matthew Choat]</a><br />
+         <a href="https://online.bootcampspot.com">Hack the world!</a>
         </div>
       </div>
      </div>

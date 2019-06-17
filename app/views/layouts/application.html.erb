@@ -23,14 +23,15 @@
       </div>
       <% end %>
         </div>
-        <div class="col-4 slogan">
-         Collecting semi-inspirational advice from the Great Sages since June, MMXIX.
+        <div class="col col-sm-4 hidden-xs-down slogan">
+         Collecting semi-inspirational words from the industry's Great Sages since MMXIX.
         </div>
-        <div class="col-5 links">
+
+        <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
 <!-- Button trigger modal -->
-          <%= link_to 'Contribute ', '#', data: {toggle: 'modal', target: '#myModal'} %>
-          ~
-          <%= link_to ' About', about_path %>
+          <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+    &nbsp; ~ &nbsp;
+          <%= link_to 'About', about_path %>
         </div>
       </header>
 
@@ -47,8 +48,9 @@
             <%= simple_form_for Quote.new do |f| %>
               <div class="modal-body">
 
-                <%= f.input :saying %>
-                <%= f.input :author %>
+                <%= f.input :saying, label: "Quotation", placeholder: "Enter the musings of prophets here." %>
+                <br />
+                <%= f.input :author, label: "Author", placeholder: "Who spoke such absolute truth?" %>
               </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -74,10 +76,10 @@
   <div class="footer">
       <div class="container">
         <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-sm-6">
          <%= link_to "Hit me, again!", root_path, class: 'next-quote' %>
       </div>
-        <div class="col-6 footer-blurb">
+      <div class="col-12 col-sm-6 footer-blurb">
          This application was crafted by <a href="[https://matthewchoat.netlify.com]">[Matthew Choat]</a><br />
          <a href="https://online.bootcampspot.com">Hack the world!</a>
         </div>

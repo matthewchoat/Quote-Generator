@@ -62,7 +62,14 @@ h2{
   font-family: 'optimusprincepsregular', serif;
   font-style: italic;
   color: #ffffff;
+  font-size: 20px;
 
+}
+
+h2 span {
+  color: #666464;
+  font-family: 'optimusprincepsregular', serif;
+    font-size: 24px;
 }
 
 .next-quote {
@@ -96,6 +103,13 @@ body{
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
+::selection {
+  background-color: #e57d22;
+}
+
+.modal {
+  font-family: 'optimusprincepsregular', serif;
+}
 .modal-title {
 background-color: #474545;
 font-family: 'optimusprincepsregular', serif;
@@ -117,4 +131,10 @@ background-color: #474545;
 
 .modal-header {
 background-color: #474545;
+}
+
+@media (max-width: 750) {
+  .footer-blurb {
+  text-align: left;
+  }
 }

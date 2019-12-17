@@ -1,24 +1,8 @@
-# README
+<h1>Dark Quotes </h1> 
+  <h2> User-Submitted Quotes Relating to All Things Gaming </h2>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A database-powered quote generator with a mobile-first design, using the Ruby on Rails framework, HTML, and CSS. Uses Git and GitHub for version control, and launched on Heroku.
 
-Things you may want to cover:
+<img src="https://matthewchoat.netlify.com/splurty.png" />
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can visit the Heroku deploy of this application and submit your own dining reviews here: https://splurty-matthew-choat.herokuapp.com/

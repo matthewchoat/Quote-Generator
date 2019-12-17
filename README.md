@@ -5,4 +5,4 @@ A database-powered quote generator with a mobile-first design, using the Ruby on
 
 <img src="https://matthewchoat.netlify.com/splurty.png" />
 
-You can visit the Heroku deploy of this application and submit your own dining reviews here: https://splurty-matthew-choat.herokuapp.com/
+You can visit the Heroku deploy of this application and submit your own inspiring quotes here: https://splurty-matthew-choat.herokuapp.com/
